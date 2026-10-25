@@ -1,0 +1,8 @@
+# Optional: lets Render create the service automatically (New + > Blueprint).
+services:
+  - type: web
+    name: face-attendance
+    runtime: docker
+    plan: free
+    region: singapore
+    healthCheckPath: /health

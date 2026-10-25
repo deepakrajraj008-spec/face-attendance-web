@@ -1,0 +1,4 @@
+flask
+gunicorn
+opencv-contrib-python-headless<5
+numpy
